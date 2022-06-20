@@ -1,0 +1,16 @@
+@keyframes teste {
+    0% {background-color: red;}
+    50% {background-color: green;}
+    75% {background-color: yellow;}
+    100% {background-color: blue;}
+    
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    animation: teste;
+    animation-duration: 6s;
+}
